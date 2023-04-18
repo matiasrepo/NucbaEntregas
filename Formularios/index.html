@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Header para estructurar como la parte superior de la pagina-->
+        <div class="TituloHeader">
+          <!-- Div para poner el titulo principal -->
+          <h1 id="TitulosPrincipales">
+            <!-- En caso de querer utilizar el id de H1 a futuro-->
+            Formulario de registro
+          </h1>
+        </div>
+      </header>
+      <main class="main">
+        <!--Contenido principal -->
+        <section class="Formularios">
+            <div class="FormNombre">
+                <form action="Nombre">
+                    <label for="Nombre">Nombre:</label>
+                    <input id="Nombre" type="text" placeholder="Escriba su nombre aquí...">
+                </form>
+        </div>
+        <br>
+        <div class="FormApellido">
+            <form action="Apellido">
+                    <label for="Apellido">Apellido:</label>
+                    <input id="Apellido" type="text" placeholder="Escriba su apelido aquí...">   
+            </form>
+        </div>
+        <br>
+        <div class="FormModalidadCursada">
+            <form action="TipoCursada">
+                    <input id="On-Demand" type="radio" name="On-Demand">   
+                    <label for="On-Demand">On-Demand</label>
+            </form>
+        </div>
+     
+        </section>
+      </main>
+</body>
+</html>
