@@ -20,53 +20,48 @@
     <main class="main">
       <!--Contenido principal -->
       <section class="Formularios">
-        <div class="FormNombre">
-          <form action="Nombre">
-            <label for="Nombre">Nombre:</label>
-            <input
-              id="Nombre"
-              type="text"
-              placeholder="Escriba su nombre aquí..."
-            />
-          </form>
-        </div>
+
+          <form action="FormularioDatos">
+            <div class="FormNombre">
+               <label for="Nombre">Nombre:</label>
+                  <input
+                    id="Nombre"
+                    type="text"
+                    placeholder="Escriba su nombre aquí..."
+                  />
+            </div>
         <br />
-        <div class="FormApellido">
-          <form action="Apellido">
-            <label for="Apellido">Apellido:</label>
-            <input
-              id="Apellido"
-              type="text"
-              placeholder="Escriba su apelido aquí..."
+            <div class="FormApellido">
+              <form action="Apellido">
+                  <label for="Apellido">Apellido:</label>
+                  <input
+                    id="Apellido"
+                    type="text"
+                    placeholder="Escriba su apelido aquí..."
             />
-          </form>
+
         </div>
         <br />
         <div class="FormModalidadCursada">
-          <form action="TipoCursada">
             <label for="ModalidadCursada">Modalidad de cursada:</label>
             <input id="On-Demand" type="radio" name="tipomodalidad" />
             <label for="On-Demand">On-Demand</label>
             <input id="En vivo" type="radio" name="tipomodalidad" />
             <label for="En vivo">En vivo</label>
-          </form>
         </div>
         <br />
         <div class="FormContactoMail">
-          <form action="FormMail">
-            <label for="Coreo">Correo:</label>
+            <label for="Correo">Correo:</label>
             <input
               id="Correo"
               type="mail"
               name="Correo"
               placeholder="Ingrese su mail..."
             />
-          </form>
         </div>
         <br />
 
         <div class="TerminosRegistro">
-          <form action="FormTerminosCondiciones">
             <input id="Newsletter" type="checkbox" name="Newsletter" />
             <label for="RecibirInfoMail"
               >Deseo recibir información sobre nuevos posteos en la plataforma
@@ -82,13 +77,14 @@
               >Declaro que leí los terminos y condiciones y estoy listo para
               convertirme en desarrollador web Full Stack.</label
             >
-          </form>
         </div>
-        <br />
-
+        <br>
         <div class="BotonEnviar">
           <button type="Enviar">Enviar</button>
-        </div>
+</form>
+
+</div>
+
       </section>
     </main>
   </body>
